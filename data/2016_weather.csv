@@ -1,0 +1,268 @@
+Away_team,GameDate,Home_team,Humidity,IsPlayoffs,Location,Stadium,Surface,Team1_Team2,Temperature,Visibility,Weather_cat,Wind
+DEN,09/08/2016,CAR,26%,0.0,"Denver, Colorado",Q2,Grass,CAR_DEN,73f.,7mi,Clear,1mi
+ATL,09/11/2016,TB,49%,0.0,"Atlanta, Georgia",Q2,Fieldturf,ATL_TB,89f.,7mi,Clear,5mi
+TEN,09/11/2016,MIN,48%,0.0,"Nashville, Tennessee",Q2,419,MIN_TEN,80f.,10mi,Clear,5mi
+PHI,09/11/2016,CLE,41%,0.0,"Philadelphia, Pennsylvania",Q2,Desso,CLE_PHI,84f.,10mi,Clear,7mi
+NYJ,09/11/2016,CIN,44%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,CIN_NYJ,82f.,10mi,Partly Cloudy,7mi
+NO,09/11/2016,OAK,68%,0.0,"New Orleans, Louisiana",Q2,Fieldturf,NO_OAK,87f.,9mi,Partly Cloudy,3mi
+KC,09/11/2016,LAC,52%,0.0,"Kansas City, Missouri",Q2,Grass,KC_LAC,76f.,10mi,Clear,8mi
+BAL,09/11/2016,BUF,43%,0.0,"Baltimore, Maryland",Q2,419,BAL_BUF,84f.,10mi,Partly Cloudy,6mi
+HOU,09/11/2016,CHI,62%,0.0,"Houston, Texas",Q2,Grass,CHI_HOU,89f.,10mi,Clear,1mi
+JAX,09/11/2016,GB,54%,0.0,"Jacksonville, Florida",Q2,419,GB_JAX,92f.,10mi,Partly Cloudy,2mi
+SEA,09/11/2016,MIA,54%,0.0,"Seattle, Washington",Q2,Fieldturf,MIA_SEA,66f.,8mi,Partly Cloudy,4mi
+DAL,09/11/2016,NYG,36%,0.0,"Arlington, Texas",Q2,RealGrass,DAL_NYG,87f.,10mi,Clear,1mi
+IND,09/11/2016,DET,48%,0.0,"Indianapolis, Indiana",Q2,Fieldturf,DET_IND,72f.,10mi,Partly Cloudy,1mi
+ARI,09/11/2016,NE,20%,0.0,"Glendale, Arizona",Q2,Grass,ARI_NE,95f.,10mi,Clear,4mi
+WAS,09/12/2016,PIT,68%,0.0,"Landover, Maryland",Q2,Grass,PIT_WAS,71f.,10mi,Clear,3mi
+SF,09/12/2016,LA,74%,0.0,"Santa Clara, California",Q2,Bermuda,LA_SF,56f.,9mi,Clear,3mi
+BUF,09/15/2016,NYJ,87%,0.0,"Orchard Park, New York",Q2,A-Turf,BUF_NYJ,50f.,7mi,Clear,3mi
+CAR,09/18/2016,SF,53%,0.0,"Charlotte, North Carolina",Q2,Grass,CAR_SF,87f.,10mi,Partly Cloudy,2mi
+WAS,09/18/2016,DAL,55%,0.0,"Landover, Maryland",Q2,Grass,DAL_WAS,88f.,10mi,Clear,6mi
+PIT,09/18/2016,CIN,87%,0.0,"Pittsburgh, Pennsylvania",Q2,Desso,CIN_PIT,74f.,5mi,Humid and Mostly Cloudy,6mi
+NYG,09/18/2016,NO,69%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,NO_NYG,82f.,9mi,Partly Cloudy,5mi
+NE,09/18/2016,MIA,70%,0.0,"Foxborough, Massachusetts",Q2,Fieldturf,MIA_NE,79f.,9mi,Partly Cloudy,6mi
+HOU,09/18/2016,KC,62%,0.0,"Houston, Texas",Q2,Grass,HOU_KC,93f.,10mi,Partly Cloudy,1mi
+DET,09/18/2016,TEN,56%,0.0,"Detroit, Michigan",Q2,Fieldturf,DET_TEN,78f.,10mi,Clear,6mi
+CLE,09/18/2016,BAL,74%,0.0,"Cleveland, Ohio",Q2,Kentucky,BAL_CLE,75f.,7mi,Partly Cloudy,5mi
+LA,09/18/2016,SEA,49%,0.0,"Los Angeles, California",Q2,Natural,LA_SEA,83f.,9mi,Clear,5mi
+ARI,09/18/2016,TB,8%,0.0,"Glendale, Arizona",Q2,Grass,ARI_TB,104f.,10mi,Clear,1mi
+LAC,09/18/2016,JAX,63%,0.0,"San Diego, California",Q2,Grass,JAX_LAC,78f.,9mi,Clear,5mi
+OAK,09/18/2016,ATL,32%,0.0,"Oakland, California",Q2,Bluegrass,ATL_OAK,84f.,10mi,Clear,5mi
+DEN,09/18/2016,IND,17%,0.0,"Denver, Colorado",Q2,Grass,DEN_IND,86f.,6mi,Clear,2mi
+MIN,09/18/2016,GB,65%,0.0,"Minneapolis, Minnesota",Q2,UBU,GB_MIN,71f.,9mi,Mostly Cloudy,6mi
+CHI,09/19/2016,PHI,45%,0.0,"Chicago, Illinois",Q2,Grass,CHI_PHI,77f.,10mi,Clear,4mi
+NE,09/22/2016,HOU,69%,0.0,"Foxborough, Massachusetts",Q2,Fieldturf,HOU_NE,64f.,9mi,Clear,2mi
+BUF,09/25/2016,ARI,43%,0.0,"Orchard Park, New York",Q2,A-Turf,ARI_BUF,65f.,10mi,Clear,2mi
+TEN,09/25/2016,OAK,41%,0.0,"Nashville, Tennessee",Q2,419,OAK_TEN,91f.,9mi,Clear,2mi
+NYG,09/25/2016,WAS,31%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,NYG_WAS,70f.,10mi,Clear,4mi
+MIA,09/25/2016,CLE,74%,0.0,"Miami Gardens, Florida",Q2,Grass,CLE_MIA,84f.,9mi,Partly Cloudy,5mi
+JAX,09/25/2016,BAL,65%,0.0,"Jacksonville, Florida",Q2,419,BAL_JAX,87f.,9mi,Partly Cloudy,6mi
+GB,09/25/2016,DET,76%,0.0,"Green Bay, Wisconsin",Q2,Desso,DET_GB,74f.,9mi,Mostly Cloudy,12mi
+CIN,09/25/2016,DEN,54%,0.0,"Cincinnati, Ohio",Q2,-,CIN_DEN,85f.,9mi,Clear,1mi
+CAR,09/25/2016,MIN,56%,0.0,"Charlotte, North Carolina",Q2,Grass,CAR_MIN,88f.,10mi,Mostly Cloudy,2mi
+TB,09/25/2016,LA,60%,0.0,"Tampa, Florida",Q2,Grass,LA_TB,89f.,9mi,Partly Cloudy,2mi
+SEA,09/25/2016,SF,47%,0.0,"Seattle, Washington",Q2,Fieldturf,SEA_SF,71f.,10mi,Partly Cloudy,3mi
+KC,09/25/2016,NYJ,75%,0.0,"Kansas City, Missouri",Q2,Grass,KC_NYJ,64f.,9mi,Mostly Cloudy,5mi
+IND,09/25/2016,LAC,56%,0.0,"Indianapolis, Indiana",Q2,Fieldturf,IND_LAC,83f.,9mi,Partly Cloudy,3mi
+PHI,09/25/2016,PIT,43%,0.0,"Philadelphia, Pennsylvania",Q2,Desso,PHI_PIT,67f.,10mi,Clear,2mi
+DAL,09/25/2016,CHI,92%,0.0,"Arlington, Texas",Q2,RealGrass,CHI_DAL,74f.,9mi,Humid and Mostly Cloudy,6mi
+NO,09/26/2016,ATL,80%,0.0,"New Orleans, Louisiana",Q2,Fieldturf,ATL_NO,79f.,9mi,Light Rain,1mi
+CIN,09/29/2016,MIA,92%,0.0,"Cincinnati, Ohio",Q2,-,CIN_MIA,57f.,4mi,Mostly Cloudy,2mi
+JAX,10/02/2016,IND,55%,0.0,"London, London",Q2,Desso,IND_JAX,59f.,10mi,Partly Cloudy,5mi
+HOU,10/02/2016,TEN,45%,0.0,"Houston, Texas",Q2,Grass,HOU_TEN,85f.,10mi,Clear,4mi
+WAS,10/02/2016,CLE,77%,0.0,"Landover, Maryland",Q2,Grass,CLE_WAS,73f.,9mi,Mostly Cloudy,1mi
+NYJ,10/02/2016,SEA,85%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,NYJ_SEA,63f.,7mi,Overcast,0mi
+NE,10/02/2016,BUF,92%,0.0,"Foxborough, Massachusetts",Q2,Fieldturf,BUF_NE,56f.,5mi,Overcast,1mi
+ATL,10/02/2016,CAR,38%,0.0,"Atlanta, Georgia",Q2,Fieldturf,ATL_CAR,81f.,9mi,Partly Cloudy,1mi
+BAL,10/02/2016,OAK,82%,0.0,"Baltimore, Maryland",Q2,419,BAL_OAK,69f.,9mi,Mostly Cloudy,0mi
+CHI,10/02/2016,DET,78%,0.0,"Chicago, Illinois",Q2,Grass,CHI_DET,66f.,9mi,Mostly Cloudy,3mi
+TB,10/02/2016,DEN,68%,0.0,"Tampa, Florida",Q2,Grass,DEN_TB,86f.,9mi,Drizzle,6mi
+ARI,10/02/2016,LA,56%,0.0,"Glendale, Arizona",Q2,Grass,ARI_LA,82f.,10mi,Mostly Cloudy,6mi
+LAC,10/02/2016,NO,61%,0.0,"San Diego, California",Q2,Grass,LAC_NO,73f.,9mi,Clear,7mi
+SF,10/02/2016,DAL,56%,0.0,"Santa Clara, California",Q2,Bermuda,DAL_SF,68f.,9mi,Partly Cloudy,11mi
+PIT,10/02/2016,KC,93%,0.0,"Pittsburgh, Pennsylvania",Q2,Desso,KC_PIT,59f.,5mi,Rain,1mi
+MIN,10/03/2016,NYG,67%,0.0,"Minneapolis, Minnesota",Q2,UBU,MIN_NYG,63f.,9mi,Clear,9mi
+SF,10/06/2016,ARI,49%,0.0,"Santa Clara, California",Q2,Bermuda,ARI_SF,65f.,10mi,Clear,4mi
+CLE,10/09/2016,NE,57%,0.0,"Cleveland, Ohio",Q2,Kentucky,CLE_NE,58f.,8mi,Partly Cloudy,10mi
+DET,10/09/2016,PHI,50%,0.0,"Detroit, Michigan",Q2,Fieldturf,DET_PHI,59f.,10mi,Partly Cloudy,8mi
+IND,10/09/2016,CHI,48%,0.0,"Indianapolis, Indiana",Q2,Fieldturf,CHI_IND,69f.,10mi,Clear,1mi
+MIA,10/09/2016,TEN,62%,0.0,"Miami Gardens, Florida",Q2,Grass,MIA_TEN,86f.,10mi,Clear,10mi
+BAL,10/09/2016,WAS,49%,0.0,"Baltimore, Maryland",Q2,419,BAL_WAS,65f.,10mi,Partly Cloudy,15mi
+MIN,10/09/2016,HOU,53%,0.0,"Minneapolis, Minnesota",Q2,UBU,HOU_MIN,57f.,10mi,Clear,6mi
+PIT,10/09/2016,NYJ,56%,0.0,"Pittsburgh, Pennsylvania",Q2,Desso,NYJ_PIT,59f.,10mi,Partly Cloudy,7mi
+DEN,10/09/2016,ATL,23%,0.0,"Denver, Colorado",Q2,Grass,ATL_DEN,72f.,4mi,Mostly Cloudy,1mi
+DAL,10/09/2016,CIN,35%,0.0,"Arlington, Texas",Q2,RealGrass,CIN_DAL,73f.,10mi,Clear,4mi
+LA,10/09/2016,BUF,28%,0.0,"Los Angeles, California",Q2,Natural,BUF_LA,83f.,10mi,Clear,7mi
+OAK,10/09/2016,LAC,31%,0.0,"Oakland, California",Q2,Bluegrass,LAC_OAK,81f.,10mi,Clear,5mi
+GB,10/09/2016,NYG,88%,0.0,"Green Bay, Wisconsin",Q2,Desso,GB_NYG,44f.,9mi,Clear,2mi
+CAR,10/10/2016,TB,79%,0.0,"Charlotte, North Carolina",Q2,Grass,CAR_TB,52f.,9mi,Clear,2mi
+LAC,10/13/2016,DEN,78%,0.0,"San Diego, California",Q2,Grass,DEN_LAC,64f.,9mi,Clear,4mi
+BUF,10/16/2016,SF,59%,0.0,"Orchard Park, New York",Q2,A-Turf,BUF_SF,71f.,10mi,Mostly Cloudy,11mi
+WAS,10/16/2016,PHI,63%,0.0,"Landover, Maryland",Q2,Grass,PHI_WAS,72f.,10mi,Clear,6mi
+TEN,10/16/2016,CLE,55%,0.0,"Nashville, Tennessee",Q2,419,CLE_TEN,81f.,10mi,Partly Cloudy,6mi
+NYG,10/16/2016,BAL,60%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,BAL_NYG,69f.,9mi,Mostly Cloudy,6mi
+NO,10/16/2016,CAR,66%,0.0,"New Orleans, Louisiana",Q2,Fieldturf,CAR_NO,84f.,9mi,Clear,5mi
+CHI,10/16/2016,JAX,88%,0.0,"Chicago, Illinois",Q2,Grass,CHI_JAX,68f.,8mi,Overcast,3mi
+DET,10/16/2016,LA,88%,0.0,"Detroit, Michigan",Q2,Fieldturf,DET_LA,65f.,9mi,Mostly Cloudy,6mi
+MIA,10/16/2016,PIT,75%,0.0,"Miami Gardens, Florida",Q2,Grass,MIA_PIT,82f.,8mi,Partly Cloudy,11mi
+NE,10/16/2016,CIN,61%,0.0,"Foxborough, Massachusetts",Q2,Fieldturf,CIN_NE,68f.,9mi,Clear,6mi
+OAK,10/16/2016,KC,95%,0.0,"Oakland, California",Q2,Bluegrass,KC_OAK,61f.,8mi,Light Rain,8mi
+SEA,10/16/2016,ATL,82%,0.0,"Seattle, Washington",Q2,Fieldturf,ATL_SEA,57f.,9mi,Mostly Cloudy,2mi
+GB,10/16/2016,DAL,68%,0.0,"Green Bay, Wisconsin",Q2,Desso,DAL_GB,62f.,10mi,Clear,4mi
+HOU,10/16/2016,IND,83%,0.0,"Houston, Texas",Q2,Grass,HOU_IND,78f.,9mi,Clear,5mi
+ARI,10/17/2016,NYJ,28%,0.0,"Glendale, Arizona",Q2,Grass,ARI_NYJ,79f.,10mi,Clear,3mi
+GB,10/20/2016,CHI,67%,0.0,"Green Bay, Wisconsin",Q2,Desso,CHI_GB,46f.,10mi,Mostly Cloudy,5mi
+LA,10/23/2016,NYG,65%,0.0,"London, London",Q2,Desso,LA_NYG,53f.,7mi,Partly Cloudy,10mi
+KC,10/23/2016,NO,47%,0.0,"Kansas City, Missouri",Q2,Grass,KC_NO,74f.,10mi,Clear,4mi
+TEN,10/23/2016,IND,38%,0.0,"Nashville, Tennessee",Q2,419,IND_TEN,75f.,9mi,Clear,7mi
+PHI,10/23/2016,MIN,46%,0.0,"Philadelphia, Pennsylvania",Q2,Desso,MIN_PHI,64f.,10mi,Mostly Cloudy,10mi
+CIN,10/23/2016,CLE,50%,0.0,"Cincinnati, Ohio",Q2,-,CIN_CLE,69f.,8mi,Clear,9mi
+DET,10/23/2016,WAS,56%,0.0,"Detroit, Michigan",Q2,Fieldturf,DET_WAS,63f.,10mi,Clear,7mi
+JAX,10/23/2016,OAK,40%,0.0,"Jacksonville, Florida",Q2,419,JAX_OAK,74f.,10mi,Clear,5mi
+MIA,10/23/2016,BUF,54%,0.0,"Miami Gardens, Florida",Q2,Grass,BUF_MIA,81f.,10mi,Partly Cloudy,8mi
+NYJ,10/23/2016,BAL,44%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,BAL_NYJ,60f.,10mi,Partly Cloudy,12mi
+SF,10/23/2016,TB,52%,0.0,"Santa Clara, California",Q2,Bermuda,SF_TB,72f.,9mi,Clear,5mi
+ATL,10/23/2016,LAC,27%,0.0,"Atlanta, Georgia",Q2,Fieldturf,ATL_LAC,71f.,6mi,Clear,3mi
+PIT,10/23/2016,NE,61%,0.0,"Pittsburgh, Pennsylvania",Q2,Desso,NE_PIT,60f.,10mi,Clear,8mi
+ARI,10/23/2016,SEA,24%,0.0,"Glendale, Arizona",Q2,Grass,ARI_SEA,83f.,10mi,Clear,1mi
+DEN,10/24/2016,HOU,30%,0.0,"Denver, Colorado",Q2,Grass,DEN_HOU,58f.,8mi,Partly Cloudy,2mi
+TEN,10/27/2016,JAX,82%,0.0,"Nashville, Tennessee",Q2,419,JAX_TEN,61f.,9mi,Clear,4mi
+CIN,10/30/2016,WAS,87%,0.0,"London, London",Q2,Desso,CIN_WAS,53f.,4mi,Mostly Cloudy,4mi
+IND,10/30/2016,KC,77%,0.0,"Indianapolis, Indiana",Q2,Fieldturf,IND_KC,64f.,9mi,Mostly Cloudy,5mi
+TB,10/30/2016,OAK,52%,0.0,"Tampa, Florida",Q2,Grass,OAK_TB,86f.,10mi,Clear,9mi
+NO,10/30/2016,SEA,53%,0.0,"New Orleans, Louisiana",Q2,Fieldturf,NO_SEA,83f.,10mi,Clear,5mi
+HOU,10/30/2016,DET,56%,0.0,"Houston, Texas",Q2,Grass,DET_HOU,84f.,10mi,Clear,2mi
+CLE,10/30/2016,NYJ,89%,0.0,"Cleveland, Ohio",Q2,Kentucky,CLE_NYJ,53f.,5mi,Mostly Cloudy,9mi
+BUF,10/30/2016,NE,92%,0.0,"Orchard Park, New York",Q2,A-Turf,BUF_NE,47f.,5mi,Drizzle,4mi
+DEN,10/30/2016,LAC,32%,0.0,"Denver, Colorado",Q2,Grass,DEN_LAC,71f.,3mi,Mostly Cloudy,2mi
+ATL,10/30/2016,GB,39%,0.0,"Atlanta, Georgia",Q2,Fieldturf,ATL_GB,79f.,6mi,Clear,3mi
+CAR,10/30/2016,ARI,53%,0.0,"Charlotte, North Carolina",Q2,Grass,ARI_CAR,75f.,10mi,Clear,3mi
+DAL,10/30/2016,PHI,62%,0.0,"Arlington, Texas",Q2,RealGrass,DAL_PHI,74f.,10mi,Clear,4mi
+CHI,10/31/2016,MIN,77%,0.0,"Chicago, Illinois",Q2,Grass,CHI_MIN,56f.,9mi,Drizzle,8mi
+TB,11/03/2016,ATL,77%,0.0,"Tampa, Florida",Q2,Grass,ATL_TB,72f.,9mi,Partly Cloudy,5mi
+MIN,11/06/2016,DET,44%,0.0,"Minneapolis, Minnesota",Q2,UBU,DET_MIN,66f.,10mi,Clear,7mi
+NYG,11/06/2016,PHI,42%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,NYG_PHI,57f.,10mi,Clear,8mi
+MIA,11/06/2016,NYJ,65%,0.0,"Miami Gardens, Florida",Q2,Grass,MIA_NYJ,79f.,10mi,Clear,12mi
+KC,11/06/2016,JAX,47%,0.0,"Kansas City, Missouri",Q2,Grass,JAX_KC,64f.,10mi,Clear,5mi
+CLE,11/06/2016,DAL,74%,0.0,"Cleveland, Ohio",Q2,Kentucky,CLE_DAL,58f.,5mi,Clear,4mi
+BAL,11/06/2016,PIT,30%,0.0,"Baltimore, Maryland",Q2,419,BAL_PIT,65f.,10mi,Mostly Cloudy,13mi
+SF,11/06/2016,NO,68%,0.0,"Santa Clara, California",Q2,Bermuda,NO_SF,70f.,9mi,Partly Cloudy,1mi
+LA,11/06/2016,CAR,60%,0.0,"Los Angeles, California",Q2,Natural,CAR_LA,72f.,9mi,Clear,4mi
+GB,11/06/2016,IND,62%,0.0,"Green Bay, Wisconsin",Q2,Desso,GB_IND,63f.,10mi,Clear,4mi
+LAC,11/06/2016,TEN,53%,0.0,"San Diego, California",Q2,Grass,LAC_TEN,75f.,9mi,Clear,4mi
+OAK,11/06/2016,DEN,84%,0.0,"Oakland, California",Q2,Bluegrass,DEN_OAK,63f.,9mi,Partly Cloudy,3mi
+SEA,11/07/2016,BUF,77%,0.0,"Seattle, Washington",Q2,Fieldturf,BUF_SEA,58f.,9mi,Mostly Cloudy,0mi
+BAL,11/10/2016,CLE,59%,0.0,"Baltimore, Maryland",Q2,419,BAL_CLE,50f.,10mi,Clear,2mi
+JAX,11/13/2016,HOU,74%,0.0,"Jacksonville, Florida",Q2,419,HOU_JAX,69f.,9mi,Partly Cloudy,5mi
+NO,11/13/2016,DEN,62%,0.0,"New Orleans, Louisiana",Q2,Fieldturf,DEN_NO,65f.,9mi,Partly Cloudy,5mi
+NYJ,11/13/2016,LA,26%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,LA_NYJ,61f.,10mi,Clear,6mi
+PHI,11/13/2016,ATL,30%,0.0,"Philadelphia, Pennsylvania",Q2,Desso,ATL_PHI,59f.,10mi,Clear,7mi
+CAR,11/13/2016,KC,61%,0.0,"Charlotte, North Carolina",Q2,Grass,CAR_KC,50f.,9mi,Partly Cloudy,3mi
+TB,11/13/2016,CHI,54%,0.0,"Tampa, Florida",Q2,Grass,CHI_TB,81f.,10mi,Clear,4mi
+WAS,11/13/2016,MIN,28%,0.0,"Landover, Maryland",Q2,Grass,MIN_WAS,60f.,10mi,Clear,4mi
+TEN,11/13/2016,GB,40%,0.0,"Nashville, Tennessee",Q2,419,GB_TEN,63f.,10mi,Clear,3mi
+LAC,11/13/2016,MIA,28%,0.0,"San Diego, California",Q2,Grass,LAC_MIA,83f.,9mi,Clear,6mi
+ARI,11/13/2016,SF,20%,0.0,"Glendale, Arizona",Q2,Grass,ARI_SF,84f.,10mi,Clear,3mi
+PIT,11/13/2016,DAL,42%,0.0,"Pittsburgh, Pennsylvania",Q2,Desso,DAL_PIT,50f.,10mi,Clear,2mi
+NE,11/13/2016,SEA,60%,0.0,"Foxborough, Massachusetts",Q2,Fieldturf,NE_SEA,42f.,10mi,Clear,2mi
+NYG,11/14/2016,CIN,33%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,CIN_NYG,52f.,10mi,Overcast,3mi
+CAR,11/17/2016,NO,71%,0.0,"Charlotte, North Carolina",Q2,Grass,CAR_NO,53f.,9mi,Clear,2mi
+CLE,11/20/2016,PIT,74%,0.0,"Cleveland, Ohio",Q2,Kentucky,CLE_PIT,36f.,7mi,Overcast,18mi
+DAL,11/20/2016,BAL,32%,0.0,"Arlington, Texas",Q2,RealGrass,BAL_DAL,59f.,10mi,Clear,7mi
+DET,11/20/2016,JAX,56%,0.0,"Detroit, Michigan",Q2,Fieldturf,DET_JAX,34f.,10mi,Mostly Cloudy,16mi
+IND,11/20/2016,TEN,61%,0.0,"Indianapolis, Indiana",Q2,Fieldturf,IND_TEN,36f.,9mi,Clear,8mi
+CIN,11/20/2016,BUF,56%,0.0,"Cincinnati, Ohio",Q2,-,BUF_CIN,39f.,6mi,Overcast,8mi
+KC,11/20/2016,TB,45%,0.0,"Kansas City, Missouri",Q2,Grass,KC_TB,48f.,10mi,Partly Cloudy,8mi
+NYG,11/20/2016,CHI,68%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,CHI_NYG,41f.,9mi,Mostly Cloudy,11mi
+MIN,11/20/2016,ARI,62%,0.0,"Minneapolis, Minnesota",Q2,UBU,ARI_MIN,28f.,10mi,Partly Cloudy,2mi
+LA,11/20/2016,MIA,74%,0.0,"Los Angeles, California",Q2,Natural,LA_MIA,62f.,6mi,Partly Cloudy,1mi
+SF,11/20/2016,NE,81%,0.0,"Santa Clara, California",Q2,Bermuda,NE_SF,59f.,6mi,Light Rain,3mi
+SEA,11/20/2016,PHI,80%,0.0,"Seattle, Washington",Q2,Fieldturf,PHI_SEA,53f.,9mi,Overcast,7mi
+WAS,11/20/2016,GB,48%,0.0,"Landover, Maryland",Q2,Grass,GB_WAS,36f.,10mi,Partly Cloudy,13mi
+OAK,11/21/2016,HOU,48%,0.0,"Mexico City, Tlalpan",Q2,Grass,HOU_OAK,60f.,9mi,Clear,0mi
+DET,11/24/2016,MIN,87%,0.0,"Detroit, Michigan",Q2,Fieldturf,DET_MIN,46f.,9mi,Mostly Cloudy,9mi
+DAL,11/24/2016,WAS,42%,0.0,"Arlington, Texas",Q2,RealGrass,DAL_WAS,69f.,9mi,Clear,4mi
+IND,11/24/2016,PIT,85%,0.0,"Indianapolis, Indiana",Q2,Fieldturf,IND_PIT,39f.,9mi,Overcast,3mi
+CHI,11/27/2016,TEN,88%,0.0,"Chicago, Illinois",Q2,Grass,CHI_TEN,41f.,3mi,Foggy,4mi
+BUF,11/27/2016,JAX,79%,0.0,"Orchard Park, New York",Q2,A-Turf,BUF_JAX,40f.,9mi,Mostly Cloudy,5mi
+BAL,11/27/2016,CIN,45%,0.0,"Baltimore, Maryland",Q2,419,BAL_CIN,49f.,10mi,Clear,8mi
+ATL,11/27/2016,ARI,37%,0.0,"Atlanta, Georgia",Q2,Fieldturf,ARI_ATL,59f.,6mi,Clear,2mi
+CLE,11/27/2016,NYG,61%,0.0,"Cleveland, Ohio",Q2,Kentucky,CLE_NYG,48f.,7mi,Clear,10mi
+NO,11/27/2016,LA,56%,0.0,"New Orleans, Louisiana",Q2,Fieldturf,LA_NO,65f.,10mi,Partly Cloudy,1mi
+MIA,11/27/2016,SF,52%,0.0,"Miami Gardens, Florida",Q2,Grass,MIA_SF,79f.,9mi,Clear,12mi
+HOU,11/27/2016,LAC,68%,0.0,"Houston, Texas",Q2,Grass,HOU_LAC,72f.,9mi,Clear,8mi
+TB,11/27/2016,SEA,54%,0.0,"Tampa, Florida",Q2,Grass,SEA_TB,75f.,10mi,Partly Cloudy,8mi
+OAK,11/27/2016,CAR,61%,0.0,"Oakland, California",Q2,Bluegrass,CAR_OAK,57f.,10mi,Clear,6mi
+NYJ,11/27/2016,NE,51%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,NE_NYJ,45f.,10mi,Partly Cloudy,4mi
+DEN,11/27/2016,KC,36%,0.0,"Denver, Colorado",Q2,Grass,DEN_KC,41f.,5mi,Mostly Cloudy,6mi
+PHI,11/28/2016,GB,71%,0.0,"Philadelphia, Pennsylvania",Q2,Desso,GB_PHI,46f.,9mi,Partly Cloudy,4mi
+MIN,12/01/2016,DAL,78%,0.0,"Minneapolis, Minnesota",Q2,UBU,DAL_MIN,34f.,9mi,Overcast,4mi
+ATL,12/04/2016,KC,94%,0.0,"Atlanta, Georgia",Q2,Fieldturf,ATL_KC,44f.,3mi,Mostly Cloudy,4mi
+NO,12/04/2016,DET,95%,0.0,"New Orleans, Louisiana",Q2,Fieldturf,DET_NO,67f.,3mi,Light Rain,1mi
+NE,12/04/2016,LA,52%,0.0,"Foxborough, Massachusetts",Q2,Fieldturf,LA_NE,40f.,10mi,Partly Cloudy,4mi
+JAX,12/04/2016,DEN,60%,0.0,"Jacksonville, Florida",Q2,419,DEN_JAX,77f.,10mi,Partly Cloudy,4mi
+GB,12/04/2016,HOU,93%,0.0,"Green Bay, Wisconsin",Q2,Desso,GB_HOU,31f.,6mi,Snow,5mi
+CIN,12/04/2016,PHI,63%,0.0,"Cincinnati, Ohio",Q2,-,CIN_PHI,43f.,6mi,Mostly Cloudy,3mi
+BAL,12/04/2016,MIA,54%,0.0,"Baltimore, Maryland",Q2,419,BAL_MIA,46f.,10mi,Clear,2mi
+CHI,12/04/2016,SF,90%,0.0,"Chicago, Illinois",Q2,Grass,CHI_SF,33f.,1mi,Light Rain,2mi
+OAK,12/04/2016,BUF,67%,0.0,"Oakland, California",Q2,Bluegrass,BUF_OAK,58f.,10mi,Clear,4mi
+PIT,12/04/2016,NYG,67%,0.0,"Pittsburgh, Pennsylvania",Q2,Desso,NYG_PIT,40f.,10mi,Partly Cloudy,2mi
+ARI,12/04/2016,WAS,14%,0.0,"Glendale, Arizona",Q2,Grass,ARI_WAS,69f.,10mi,Clear,2mi
+LAC,12/04/2016,TB,28%,0.0,"San Diego, California",Q2,Grass,LAC_TB,72f.,9mi,Clear,4mi
+SEA,12/04/2016,CAR,85%,0.0,"Seattle, Washington",Q2,Fieldturf,CAR_SEA,39f.,9mi,Mostly Cloudy,3mi
+NYJ,12/05/2016,IND,76%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,IND_NYJ,39f.,9mi,Clear,2mi
+KC,12/08/2016,OAK,64%,0.0,"Kansas City, Missouri",Q2,Grass,KC_OAK,21f.,9mi,Clear,2mi
+BUF,12/11/2016,PIT,77%,0.0,"Orchard Park, New York",Q2,A-Turf,BUF_PIT,24f.,1mi,Snow,8mi
+TEN,12/11/2016,DEN,33%,0.0,"Nashville, Tennessee",Q2,419,DEN_TEN,54f.,10mi,Partly Cloudy,11mi
+TB,12/11/2016,NO,67%,0.0,"Tampa, Florida",Q2,Grass,NO_TB,76f.,9mi,Partly Cloudy,7mi
+PHI,12/11/2016,WAS,55%,0.0,"Philadelphia, Pennsylvania",Q2,Desso,PHI_WAS,34f.,9mi,Mostly Cloudy,5mi
+MIA,12/11/2016,ARI,82%,0.0,"Miami Gardens, Florida",Q2,Grass,ARI_MIA,77f.,7mi,Partly Cloudy,14mi
+CAR,12/11/2016,LAC,44%,0.0,"Charlotte, North Carolina",Q2,Grass,CAR_LAC,42f.,10mi,Mostly Cloudy,2mi
+CLE,12/11/2016,CIN,87%,0.0,"Cleveland, Ohio",Q2,Kentucky,CIN_CLE,29f.,2mi,Light Snow,14mi
+DET,12/11/2016,CHI,93%,0.0,"Detroit, Michigan",Q2,Fieldturf,CHI_DET,29f.,0mi,Light Snow,15mi
+IND,12/11/2016,HOU,70%,0.0,"Indianapolis, Indiana",Q2,Fieldturf,HOU_IND,34f.,6mi,Mostly Cloudy,10mi
+JAX,12/11/2016,MIN,65%,0.0,"Jacksonville, Florida",Q2,419,JAX_MIN,72f.,9mi,Clear,6mi
+SF,12/11/2016,NYJ,68%,0.0,"Santa Clara, California",Q2,Bermuda,NYJ_SF,54f.,9mi,Partly Cloudy,4mi
+LA,12/11/2016,ATL,77%,0.0,"Los Angeles, California",Q2,Natural,ATL_LA,64f.,9mi,Mostly Cloudy,1mi
+GB,12/11/2016,SEA,88%,0.0,"Green Bay, Wisconsin",Q2,Desso,GB_SEA,25f.,9mi,Mostly Cloudy,1mi
+NYG,12/11/2016,DAL,84%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,DAL_NYG,30f.,8mi,Mostly Cloudy,0mi
+NE,12/12/2016,BAL,93%,0.0,"Foxborough, Massachusetts",Q2,Fieldturf,BAL_NE,33f.,8mi,Clear,3mi
+SEA,12/15/2016,LA,73%,0.0,"Seattle, Washington",Q2,Fieldturf,LA_SEA,35f.,10mi,Mostly Cloudy,3mi
+NYJ,12/17/2016,MIA,91%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,MIA_NYJ,34f.,5mi,Mostly Cloudy,3mi
+CHI,12/18/2016,GB,66%,0.0,"Chicago, Illinois",Q2,Grass,CHI_GB,10f.,9mi,Partly Cloudy,7mi
+HOU,12/18/2016,JAX,53%,0.0,"Houston, Texas",Q2,Grass,HOU_JAX,40f.,10mi,Mostly Cloudy,12mi
+BUF,12/18/2016,CLE,82%,0.0,"Orchard Park, New York",Q2,A-Turf,BUF_CLE,24f.,8mi,Mostly Cloudy,8mi
+BAL,12/18/2016,PHI,81%,0.0,"Baltimore, Maryland",Q2,419,BAL_PHI,56f.,9mi,Light Rain,11mi
+KC,12/18/2016,TEN,64%,0.0,"Kansas City, Missouri",Q2,Grass,KC_TEN,7f.,10mi,Clear,2mi
+NYG,12/18/2016,DET,92%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,DET_NYG,51f.,4mi,Mostly Cloudy,5mi
+MIN,12/18/2016,IND,63%,0.0,"Minneapolis, Minnesota",Q2,UBU,IND_MIN,-7f.,9mi,Clear,4mi
+CIN,12/18/2016,PIT,73%,0.0,"Cincinnati, Ohio",Q2,-,CIN_PIT,26f.,7mi,Mostly Cloudy,6mi
+ARI,12/18/2016,NO,21%,0.0,"Glendale, Arizona",Q2,Grass,ARI_NO,62f.,10mi,Clear,2mi
+ATL,12/18/2016,SF,86%,0.0,"Atlanta, Georgia",Q2,Fieldturf,ATL_SF,42f.,5mi,Mostly Cloudy,6mi
+DEN,12/18/2016,NE,59%,0.0,"Denver, Colorado",Q2,Grass,DEN_NE,21f.,3mi,Clear,4mi
+LAC,12/18/2016,OAK,26%,0.0,"San Diego, California",Q2,Grass,LAC_OAK,61f.,10mi,Clear,4mi
+DAL,12/18/2016,TB,49%,0.0,"Arlington, Texas",Q2,RealGrass,DAL_TB,24f.,10mi,Clear,6mi
+WAS,12/19/2016,CAR,56%,0.0,"Landover, Maryland",Q2,Grass,CAR_WAS,29f.,10mi,Partly Cloudy,3mi
+PHI,12/22/2016,NYG,57%,0.0,"Philadelphia, Pennsylvania",Q2,Desso,NYG_PHI,40f.,10mi,Mostly Cloudy,8mi
+BUF,12/24/2016,MIA,90%,0.0,"Orchard Park, New York",Q2,A-Turf,BUF_MIA,34f.,4mi,Overcast,5mi
+NO,12/24/2016,TB,79%,0.0,"New Orleans, Louisiana",Q2,Fieldturf,NO_TB,73f.,9mi,Mostly Cloudy,4mi
+NE,12/24/2016,NYJ,94%,0.0,"Foxborough, Massachusetts",Q2,Fieldturf,NE_NYJ,40f.,2mi,Light Rain,4mi
+JAX,12/24/2016,TEN,72%,0.0,"Jacksonville, Florida",Q2,419,JAX_TEN,74f.,6mi,Mostly Cloudy,1mi
+GB,12/24/2016,MIN,84%,0.0,"Green Bay, Wisconsin",Q2,Desso,GB_MIN,36f.,10mi,Mostly Cloudy,4mi
+CLE,12/24/2016,LAC,90%,0.0,"Cleveland, Ohio",Q2,Kentucky,CLE_LAC,37f.,5mi,Mostly Cloudy,8mi
+CHI,12/24/2016,WAS,85%,0.0,"Chicago, Illinois",Q2,Grass,CHI_WAS,35f.,10mi,Mostly Cloudy,1mi
+CAR,12/24/2016,ATL,64%,0.0,"Charlotte, North Carolina",Q2,Grass,ATL_CAR,59f.,10mi,Partly Cloudy,7mi
+OAK,12/24/2016,IND,59%,0.0,"Oakland, California",Q2,Bluegrass,IND_OAK,50f.,10mi,Clear,5mi
+SEA,12/24/2016,ARI,89%,0.0,"Seattle, Washington",Q2,Fieldturf,ARI_SEA,38f.,10mi,Mostly Cloudy,2mi
+LA,12/24/2016,SF,48%,0.0,"Los Angeles, California",Q2,Natural,LA_SF,56f.,10mi,Clear,9mi
+HOU,12/24/2016,CIN,91%,0.0,"Houston, Texas",Q2,Grass,CIN_HOU,69f.,7mi,Partly Cloudy,9mi
+PIT,12/25/2016,BAL,83%,0.0,"Pittsburgh, Pennsylvania",Q2,Desso,BAL_PIT,36f.,9mi,Partly Cloudy,4mi
+KC,12/25/2016,DEN,85%,0.0,"Kansas City, Missouri",Q2,Grass,DEN_KC,52f.,6mi,Heavy Rain,7mi
+DAL,12/26/2016,DET,41%,0.0,"Arlington, Texas",Q2,RealGrass,DAL_DET,61f.,10mi,Mostly Cloudy,2mi
+PIT,01/01/2017,CLE,65%,0.0,"Pittsburgh, Pennsylvania",Q2,Desso,CLE_PIT,41f.,9mi,Clear,1mi
+CIN,01/01/2017,BAL,87%,0.0,"Cincinnati, Ohio",Q2,-,BAL_CIN,41f.,8mi,Foggy,2mi
+TEN,01/01/2017,HOU,93%,0.0,"Nashville, Tennessee",Q2,419,HOU_TEN,52f.,7mi,Mostly Cloudy,1mi
+TB,01/01/2017,CAR,59%,0.0,"Tampa, Florida",Q2,Grass,CAR_TB,81f.,10mi,Clear,8mi
+IND,01/01/2017,JAX,68%,0.0,"Indianapolis, Indiana",Q2,Fieldturf,IND_JAX,44f.,9mi,Clear,3mi
+MIA,01/01/2017,NE,66%,0.0,"Miami Gardens, Florida",Q2,Grass,MIA_NE,80f.,9mi,Mostly Cloudy,9mi
+MIN,01/01/2017,CHI,73%,0.0,"Minneapolis, Minnesota",Q2,UBU,CHI_MIN,30f.,9mi,Clear,1mi
+NYJ,01/01/2017,BUF,40%,0.0,"Rutherford, New Jersey",Q2,Fieldturf,BUF_NYJ,47f.,10mi,Clear,6mi
+PHI,01/01/2017,DAL,49%,0.0,"Philadelphia, Pennsylvania",Q2,Desso,DAL_PHI,50f.,10mi,Partly Cloudy,6mi
+LA,01/01/2017,ARI,60%,0.0,"Los Angeles, California",Q2,Natural,ARI_LA,57f.,9mi,Clear,4mi
+DEN,01/01/2017,OAK,33%,0.0,"Denver, Colorado",Q2,Grass,DEN_OAK,44f.,3mi,Partly Cloudy,2mi
+LAC,01/01/2017,KC,63%,0.0,"San Diego, California",Q2,Grass,KC_LAC,58f.,9mi,Partly Cloudy,6mi
+SF,01/01/2017,SEA,57%,0.0,"Santa Clara, California",Q2,Bermuda,SEA_SF,53f.,10mi,Partly Cloudy,8mi
+ATL,01/01/2017,NO,97%,0.0,"Atlanta, Georgia",Q2,Fieldturf,ATL_NO,48f.,1mi,Light Rain,5mi
+WAS,01/01/2017,NYG,56%,0.0,"Landover, Maryland",Q2,Grass,NYG_WAS,47f.,10mi,Clear,1mi
+DET,01/01/2017,GB,83%,0.0,"Detroit, Michigan",Q2,Fieldturf,DET_GB,30f.,10mi,Clear,3mi
+HOU,01/07/2017,OAK,38%,0.0,"Houston, Texas",Q2,Grass,HOU_OAK,42f.,10mi,Clear,6mi
+SEA,01/07/2017,DET,55%,0.0,"Seattle, Washington",Q2,Fieldturf,DET_SEA,35f.,10mi,Overcast,4mi
+PIT,01/08/2017,MIA,55%,0.0,"Pittsburgh, Pennsylvania",Q2,Desso,MIA_PIT,16f.,9mi,Partly Cloudy,4mi
+GB,01/08/2017,NYG,67%,0.0,"Green Bay, Wisconsin",Q2,Desso,GB_NYG,12f.,10mi,Partly Cloudy,5mi
+ATL,01/14/2017,SEA,56%,0.0,"Atlanta, Georgia",Q2,Fieldturf,ATL_SEA,69f.,7mi,Partly Cloudy,2mi
+NE,01/14/2017,HOU,67%,0.0,"Foxborough, Massachusetts",Q2,Fieldturf,HOU_NE,28f.,9mi,Partly Cloudy,3mi
+DAL,01/15/2017,GB,91%,0.0,"Arlington, Texas",Q2,RealGrass,DAL_GB,57f.,3mi,Partly Cloudy,5mi
+KC,01/15/2017,PIT,96%,0.0,"Kansas City, Missouri",Q2,Grass,KC_PIT,32f.,3mi,Overcast,3mi
+ATL,01/22/2017,GB,96%,0.0,"Atlanta, Georgia",Q2,Fieldturf,ATL_GB,60f.,3mi,Overcast,4mi
+NE,01/22/2017,PIT,94%,0.0,"Foxborough, Massachusetts",Q2,Fieldturf,NE_PIT,39f.,8mi,Overcast,6mi
+ATL,02/05/2017,NE,78%,0.0,"Houston, Texas",Q2,Grass,ATL_NE,72f.,9mi,Mostly Cloudy,6mi
