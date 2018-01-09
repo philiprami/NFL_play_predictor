@@ -1,8 +1,8 @@
 import csv
 
-csv_files = ['data/pbp-2013.csv', 'data/pbp-2014.csv', 'data/pbp-2015.csv', 'data/pbp-2016.csv', 'data/pbp-2017.csv']
+csv_files = ['../data/2013_weather.csv', '../data/2014_weather.csv', '../data/2015_weather.csv', '../data/2016_weather.csv', '../data/2017_weather.csv']
 
-master_csv = open("nfl_plays.csv", "a")
+master_csv = open("../data/weather.csv", "a")
 
 for element in csv_files:
     csv_file = open(element)
