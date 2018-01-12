@@ -1,15 +1,11 @@
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import GradientBoostingClassifier
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import cPickle as pickle
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, precision_score, recall_score
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.naive_bayes import MultinomialNB
-from sklearn import preprocessing
-from roc import plot_roc
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, roc_auc_score
+from sklearn.grid_search import GridSearchCV
 
 # Load the dataset in with pandas
 df = pd.read_csv('../data/master.csv')
@@ -50,25 +46,42 @@ X = df.values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 # Use sklearn's RandomForestClassifier to build a model of your data
-rf = RandomForestClassifier()
+rf = RandomForestClassifier(n_estimators=100, min_samples_leaf=50, oob_score=True)
 rf.fit(X_train, y_train)
-gb = GradientBoostingClassifier()
+
+gb = GradientBoostingClassifier(learning_rate=0.01, n_estimators=3000, verbose=2)
 gb.fit(X_train, y_train)
 
-# What is the accuracy score on the test data?
-print "RF score:", rf.score(X_test, y_test)
-print "GB score:", gb.score(X_test, y_test)
-## answer: 0.9448441247
+# Use grid search to find the best parameters for the random forest classifier
+# rf_parameters = {"n_estimators" : [10, 30, 100],
+#                  "min_samples_leaf": [2, 50, 100],
+#                  "max_features":["auto", "sqrt", "log2", None]
+#                  } 
 
-# 9. Draw a confusion matrix for the results
-y_predict = rf.predict(X_test)
-print "confusion matrix:"
-print confusion_matrix(y_test, y_predict)
-## answer:  716   6
-##           40  72
+# rf = RandomForestClassifier()
+# cv_rf = GridSearchCV(rf, rf_parameters, cv=5, n_jobs=-1, verbose=2)
+# cv_rf.fit(X_train, y_train)
+# best_parameters = model_fit.best_params_
 
-# 10. What is the precision? Recall?
-print "precision:", precision_score(y_test, y_predict)
-print "recall:", recall_score(y_test, y_predict)
-## precision: 0.923076923077
-##    recall: 0.642857142857
+# pickle the model to disk
+rf_filename = '../data/rf_MVP.p'
+gb_filename = '../data/gb_MVP.p'
+pickle.dump(model, open(rf_filename, 'wb'))
+pickle.dump(model, open(gb_filename, 'wb'))
+  
+# load the model from disk
+rf_model = pickle.load(open(rf_filename, 'rb'))
+gb_model = pickle.load(open(gb_filename, 'rb'))
+
+# # What is the accuracy score on the test data?
+print "RF score:", rf_model.score(X_test, y_test)
+print "GB score:", gb_model.score(X_test, y_test)
+
+# # 9. Draw a confusion matrix for the results
+# y_predict = rf.predict(X_test)
+# print "confusion matrix:"
+# print confusion_matrix(y_test, y_predict)
+
+# # 10. What is the precision? Recall?
+# print "precision:", precision_score(y_test, y_predict)
+# print "recall:", recall_score(y_test, y_predict)
