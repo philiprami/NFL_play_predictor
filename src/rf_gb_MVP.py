@@ -16,11 +16,10 @@ mask_rush = (df['PlayType'] == 'RUSH') | (df['IsRush'] == 1)
 df = df[mask_pass | mask_rush]
 
 # Make a numpy array called y containing the IsPass values
-y = df['IsPass'].values
-y = df.pop('IsPass').values
+y = df.pop('IsRush').values
 
 # Get dummies for categorical data (try label encoding)
-categorical = ['OffenseTeam', 'DefenseTeam','Formation', 'Location',
+categorical = ['OffenseTeam', 'DefenseTeam','Formation', 'Location', 'Last_play'
                 'Surface', 'Weather_cat', 'Coach', 'Offensive_coordinator', 
                 'Offensive_scheme', 'Defensive_coordinator', 'Defensive_alignment']
 
@@ -28,12 +27,12 @@ df = pd.get_dummies(df, columns=categorical)
 
 # Drop columns that won't be trained on
 drop_columns = ['GameId', 'GameDate', 'NextScore', 'Description', 'TeamWin',
-                'Yards', 'PlayType', 'IsRush', 'IsIncomplete', 'IsTouchdown', 
+                'Yards', 'PlayType', 'IsPass', 'IsIncomplete', 'IsTouchdown', 
                 'PassType', 'IsSack', 'IsChallenge', 'IsChallengeReversed', 'IsMeasurement',
                 'IsInterception', 'IsFumble', 'IsPenalty', 'IsTwoPointConversion',
                 'IsTwoPointConversionSuccessful', 'RushDirection', 'YardLineFixed',
                 'YardLineDirection', 'IsPenaltyAccepted', 'PenaltyTeam', 'IsNoPlay',
-                'PenaltyType', 'PenaltyYards', 'Team1_Team2', 'Away_team',
+                'PenaltyType', 'PenaltyYards', 'Team1_Team2', 'Away_team', 'SeriesFirstDown',
                 'Home_team', 'IsFieldGoal', 'IsSafety', 'Home_score', 'Away_score'
                 ]
 
@@ -46,7 +45,7 @@ X = df.values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 # Use sklearn's RandomForestClassifier to build a model of your data
-rf = RandomForestClassifier(n_estimators=100, min_samples_leaf=50, oob_score=True)
+rf = RandomForestClassifier(n_estimators=500, min_samples_leaf=45, max_features=None, oob_score=True, n_jobs=-1, verbose=2)
 rf.fit(X_train, y_train)
 
 gb = GradientBoostingClassifier(learning_rate=0.01, n_estimators=3000, verbose=2)
@@ -66,8 +65,8 @@ gb.fit(X_train, y_train)
 # pickle the model to disk
 rf_filename = '../data/rf_MVP.p'
 gb_filename = '../data/gb_MVP.p'
-pickle.dump(model, open(rf_filename, 'wb'))
-pickle.dump(model, open(gb_filename, 'wb'))
+pickle.dump(rf, open(rf_filename, 'wb'))
+pickle.dump(gb, open(gb_filename, 'wb'))
   
 # load the model from disk
 rf_model = pickle.load(open(rf_filename, 'rb'))
