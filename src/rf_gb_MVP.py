@@ -16,20 +16,20 @@ mask_rush = (df['PlayType'] == 'RUSH') | (df['IsRush'] == 1)
 df = df[mask_pass | mask_rush]
 
 # Make a numpy array called y containing the IsPass values
-y = df.pop('IsRush').values
+y = df.pop('IsPass').values
 
 # Get dummies for categorical data (try label encoding)
-categorical = ['OffenseTeam', 'DefenseTeam','Formation', 'Location', 'Last_play'
-                'Surface', 'Weather_cat', 'Coach', 'Offensive_coordinator', 
+categorical = ['OffenseTeam', 'DefenseTeam','Formation', 'Location', 'Last_play',
+                'Surface', 'Weather_cat', 'Coach', 'Offensive_coordinator', 'SeasonYear',
                 'Offensive_scheme', 'Defensive_coordinator', 'Defensive_alignment']
 
 df = pd.get_dummies(df, columns=categorical)
 
 # Drop columns that won't be trained on
 drop_columns = ['GameId', 'GameDate', 'NextScore', 'Description', 'TeamWin',
-                'Yards', 'PlayType', 'IsPass', 'IsIncomplete', 'IsTouchdown', 
+                'Yards', 'PlayType', 'IsRush', 'IsIncomplete', 'IsTouchdown', 
                 'PassType', 'IsSack', 'IsChallenge', 'IsChallengeReversed', 'IsMeasurement',
-                'IsInterception', 'IsFumble', 'IsPenalty', 'IsTwoPointConversion',
+                'IsInterception', 'IsFumble', 'IsPenalty', 'IsTwoPointConversionScore',
                 'IsTwoPointConversionSuccessful', 'RushDirection', 'YardLineFixed',
                 'YardLineDirection', 'IsPenaltyAccepted', 'PenaltyTeam', 'IsNoPlay',
                 'PenaltyType', 'PenaltyYards', 'Team1_Team2', 'Away_team', 'SeriesFirstDown',
@@ -45,22 +45,22 @@ X = df.values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 # Use sklearn's RandomForestClassifier to build a model of your data
-rf = RandomForestClassifier(n_estimators=500, min_samples_leaf=45, max_features=None, oob_score=True, n_jobs=-1, verbose=2)
+rf = RandomForestClassifier(n_estimators=1000, min_samples_leaf=45, max_features=None, oob_score=True, n_jobs=-1, verbose=2)
 rf.fit(X_train, y_train)
 
-gb = GradientBoostingClassifier(learning_rate=0.01, n_estimators=3000, verbose=2)
+gb = GradientBoostingClassifier(learning_rate=0.01, n_estimators=1000, verbose=2)
 gb.fit(X_train, y_train)
 
 # Use grid search to find the best parameters for the random forest classifier
-# rf_parameters = {"n_estimators" : [10, 30, 100],
-#                  "min_samples_leaf": [2, 50, 100],
-#                  "max_features":["auto", "sqrt", "log2", None]
+# gb_parameters = {"n_estimators" : [100, 150],
+#                  "learning_rate": [0.01],
 #                  } 
 
-# rf = RandomForestClassifier()
-# cv_rf = GridSearchCV(rf, rf_parameters, cv=5, n_jobs=-1, verbose=2)
-# cv_rf.fit(X_train, y_train)
-# best_parameters = model_fit.best_params_
+# gb = GradientBoostingClassifier()
+# cv_gb = GridSearchCV(gb, gb_parameters, cv=5, n_jobs=-1, verbose=2)
+# cv_gb.fit(X_train, y_train)
+# best_parameters = cv_gb.best_params_
+# print best_parameters
 
 # pickle the model to disk
 rf_filename = '../data/rf_MVP.p'
@@ -72,15 +72,16 @@ pickle.dump(gb, open(gb_filename, 'wb'))
 rf_model = pickle.load(open(rf_filename, 'rb'))
 gb_model = pickle.load(open(gb_filename, 'rb'))
 
-# # What is the accuracy score on the test data?
-print "RF score:", rf_model.score(X_test, y_test)
-print "GB score:", gb_model.score(X_test, y_test)
+# calculate accuracy, precision, recall, and feature importances
+def return_model_scores(model, X_test, y_test, n_features):
+        accuracy = model.score(X_test, y_test)
+        feature_importances = np.argsort(rf.feature_importances_)
+        y_predict = rf.predict(X_test)
+        precision = precision_score(y_test, y_predict)
+        recall = recall_score(y_test, y_predict)
+        confusion_matrix = confusion_matrix(y_test, y_predict)
+        return score, list(df.columns[feature_importances[-1:-(n_features+1):-1]]), \
+          precision, recall, confusion_matrix
 
-# # 9. Draw a confusion matrix for the results
-# y_predict = rf.predict(X_test)
-# print "confusion matrix:"
-# print confusion_matrix(y_test, y_predict)
+accuracy, feature_importances, precision, recall, confusion_matrix = return_model_scores(rf, X_test, y_test, 20)
 
-# # 10. What is the precision? Recall?
-# print "precision:", precision_score(y_test, y_predict)
-# print "recall:", recall_score(y_test, y_predict)
