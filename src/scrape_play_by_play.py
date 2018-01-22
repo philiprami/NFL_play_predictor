@@ -3,8 +3,9 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from selenium import webdriver
 
-seasons = [str(i) for i in range(2012, 2018)]
-weeks = [str(i) for i in range(1, 22)]
+# seasons = [str(i) for i in range(2012, 2018)]
+seasons = ['2017']
+weeks = [str(i) for i in range(16, 21)]
 columns = ['quarter','gameTime','down','to_go','description', 'away_team', 
 		   'week', 'home_score','away_score','yard_line', 'home_team', 
 		   'gameDate', 'seasonYear', 'offenseTeam', 'away_team_wins',
