@@ -38,25 +38,29 @@ def process_frame(dataframe):
 def gs_fit_model(model, X_train, y_train):
 
     grid = {'max_features': ['sqrt'],
-            'n_estimators': [4000],
-            'learning_rate': [0.05],
-            'max_depth' : [3, 4]
+            'n_estimators': [5500, 6000, 6500, 7000, 7500, 8000],
+            'learning_rate': [0.04, 0.03, 0.02],
+            'max_depth' : [4]
             } 
     
     gridsearch = GridSearchCV(model, grid, verbose=2, cv=4, n_jobs=-1)
     gridsearch.fit(X_train, y_train)
     return gridsearch.best_params_, gridsearch.best_estimator_
 
-def return_model_scores(df, model, X_test, y_test, n_features):
+def return_model_scores(model, X_test, y_test, n_features):
     accuracy = model.score(X_test, y_test)
     baseline = y_test.mean()
-    feature_importances = np.argsort(model.feature_importances_)
-    feature_list = list(df.columns[feature_importances[-1:-(n_features+1):-1]])
     y_predict = model.predict(X_test)
     class_report = classification_report(y_test, y_predict)
     conf_matrix = confusion_matrix(y_test, y_predict)
-    return accuracy, baseline, feature_list, class_report, conf_matrix
-    # get feature_list function from data exploration
+    return accuracy, baseline, class_report, conf_matrix
+
+def get_sorted_features(df, model, n_features):
+    feature_importance = {}
+    for label, importance in zip(df.columns, model.feature_importances_):
+        feature_importance[label] = importance
+
+    return sorted(feature_importance.items(), key=lambda x: (-x[1]))[:n_features + 1]
 
 def pickle_model(filename, model):
     pickle.dump(model, open(filename, 'wb'))
@@ -70,13 +74,14 @@ if __name__ == '__main__':
     # define model here... GB, RF, ADA
     model = GradientBoostingClassifier(verbose=2)
     best_params, best_model = gs_fit_model(model, X_train, y_train)
-    accuracy, baseline, important_features, class_report, conf_matrix = \
-      return_model_scores(df, best_model, X_test, y_test, 20)
+    accuracy, baseline, class_report, conf_matrix = \
+      return_model_scores(best_model, X_test, y_test, 20)
+    impotant_features = get_sorted_features(df, model, 20)
     print best_params
     print accuracy
     print baseline
-    print feature_importances
+    print impotant_features
     print class_report
     print conf_matrix
-    pickle_model('../models/gb_1.19.6.p', best_model)
+    pickle_model('../models/gb_1.19.7.p', best_model)
 
