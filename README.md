@@ -24,8 +24,8 @@ Three classifiers were attempted and evaluated. Accuracy, Precision, and Recall 
 	| Logistic Regression        | 0.71   | 0.71    | 0.71   |
 	| Random Forest classifier   | 0.73   | 0.73    | 0.73   |
 	| GradientBoostingClassifier | 0.74   | 0.74    | 0.74   |
-	| f1-score        | 0.82 |
-  1. Logistic Regression:         0.71, 0.71, 0.71
+
+1. Logistic Regression:         0.71, 0.71, 0.71
   2. Random Forest classifier:    0.73, 0.73, 0.73
   3. GradientBoostingClassifier:  0.74, 0.74, 0.74
 
