@@ -32,7 +32,7 @@ I've evaluated the Gradient Boosting Classifier's performance against a baseline
   Baseline: 58% accuracy
   GB Classifier: 74% accuracy
 
-![alt-text-1](img/confusion_matrix.png "title-1") ![alt-text-2](img/class_report.png "title-2")
+![alt-text-1](img/confusion_matrix.png "title-1"){:height="400px" width="400px"} ![alt-text-2](img/class_report.png "title-2"){:height="36px" width="36px"}
 
 #### When compared to the baseline accuracy of 58%, the Gradient Boosting Classifier is 30% more accurate.
 
