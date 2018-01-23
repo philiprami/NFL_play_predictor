@@ -50,3 +50,10 @@ AWS
 ### Future Work
 * Player packages for each play
 * Baseball - another stop and start sports with complex in game decisions
+
+	| Metric 			    |	Value|
+	|-----------------|------|
+	| accuracy        | 0.92 |
+	| recall          | 0.72 |
+	| precision       | 0.94 |
+	| f1-score        | 0.82 |
