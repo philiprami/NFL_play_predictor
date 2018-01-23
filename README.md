@@ -21,10 +21,10 @@ The target is pass. Every pass play attempt is given a value of 1. Every rush at
 Three classifiers were attempted and evaluated. Accuracies are supplied with each model:
 
 	| Model 	  |Accuracy|
-	|-----------------|------|
-	| accuracy        | 0.71 |
-	| recall          | 0.73 |
-	| precision       | 0.74 |
+	|-----------------|--------|
+	| accuracy        | 0.71   |
+	| recall          | 0.73   |
+	| precision       | 0.74   |
 
 After grid searching and evaluating models with the use of AWS clusters, the Gradient Boosting Classifier seemed to perform best consistently. The most important features, in order, include <top ten>. After all of the scraping and feature engineering was done, the fundamental factors of football proved to be the most important features.
 
