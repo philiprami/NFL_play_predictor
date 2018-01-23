@@ -27,13 +27,12 @@ After grid searching and evaluating models with the use of AWS clusters, the Gra
 
 | Metric 			 |	Value|
 |-----------------|------|
-| accuracy        | 0.92 |
-| recall          | 0.72 |
-| precision       | 0.94 |
-| f1-score        | 0.82 |
-	
-<p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/class_report.png" width="200">
-	
+| baseline        | 0.58 |
+| accuracy        | 0.74 |
+| precision       | 0.74 |
+| recall          | 0.74 |
+| f1-score        | 0.74 |
+		
 ### Evaluation
 I've evaluated the Gradient Boosting Classifier's performance against a baseline naive model that always selects pass (the majority class).   
   Baseline: 58% accuracy
