@@ -19,7 +19,7 @@ The cleaned training data set contains a total of around 120,000 offensive plays
 The model features fall into 7 major categories:
 The target is pass. Every pass play attempt is given a value of 1. Every rush attempt is given a value of 0.
 Three classifiers were attempted and evaluated. Accuracy, Precision, and Recall are supplied with each model:
-	| Model 	             |Accuracy|Precision| Recall |
+	| Model 	             | Accuracy | Precision | Recall |
 	|----------------------------|------|------|------|
 	| Logistic Regression        | 0.71 | 0.71 | 0.71 |
 	| Random Forest classifier   | 0.73 | 0.73 | 0.73 |
