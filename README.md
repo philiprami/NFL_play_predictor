@@ -19,25 +19,20 @@ The cleaned training data set contains a total of around 120,000 offensive plays
 The model features fall into 7 major categories:
 The target is pass. Every pass play attempt is given a value of 1. Every rush attempt is given a value of 0.
 Three classifiers were attempted and evaluated. Accuracies are supplied with each model:
-
-	| Model 	  |Accuracy|
-	|-----------------|--------|
-	| accuracy        | 0.71   |
-	| recall          | 0.73   |
-	| precision       | 0.74   |
+  1. Logistic Regression:         0.71, 0.71, 0.71
+  2. Random Forest classifier:    0.73, 0.73, 0.73
+  3. GradientBoostingClassifier:  0.74, 0.74, 0.74
 
 After grid searching and evaluating models with the use of AWS clusters, the Gradient Boosting Classifier seemed to perform best consistently. The most important features, in order, include <top ten>. After all of the scraping and feature engineering was done, the fundamental factors of football proved to be the most important features.
 
-<p float="left">
-  <img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/class_report.png" width="200"/> 
-  <img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/confusion_matrix.png" width="400"/>
-</p>
+<p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/class_report.png" width="200">
+	
 ### Evaluation
 I've evaluated the Gradient Boosting Classifier's performance against a baseline naive model that always selects pass (the majority class).   
   Baseline: 58% accuracy
   GB Classifier: 74% accuracy
 
-![alt-text-1](img/confusion_matrix.png "title-1"){:height="400px" width="400px"} ![alt-text-2](img/class_report.png "title-2"){:height="36px" width="36px"}
+<p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/confusion_matrix.png" width="400">
 
 #### When compared to the baseline accuracy of 58%, the Gradient Boosting Classifier is 30% more accurate.
 
@@ -53,4 +48,3 @@ AWS
 ### Future Work
 * Player packages for each play
 * Baseball - another stop and start sports with complex in game decisions
-------|
