@@ -19,6 +19,12 @@ The cleaned training data set contains a total of around 120,000 offensive plays
 The model features fall into 7 major categories:
 The target is pass. Every pass play attempt is given a value of 1. Every rush attempt is given a value of 0.
 Three classifiers were attempted and evaluated. Accuracy, Precision, and Recall are supplied with each model:
+	| Model 	             |Accuracy|Precision| Recall |
+	|----------------------------|--------|---------|--------|
+	| Logistic Regression        | 0.71   | 0.71    | 0.71   |
+	| Random Forest classifier   | 0.73   | 0.73    | 0.73   |
+	| GradientBoostingClassifier | 0.74   | 0.74    | 0.74   |
+	| f1-score        | 0.82 |
   1. Logistic Regression:         0.71, 0.71, 0.71
   2. Random Forest classifier:    0.73, 0.73, 0.73
   3. GradientBoostingClassifier:  0.74, 0.74, 0.74
@@ -50,10 +56,4 @@ AWS
 ### Future Work
 * Player packages for each play
 * Baseball - another stop and start sports with complex in game decisions
-
-	| Metric 			    |	Value|
-	|-----------------|------|
-	| accuracy        | 0.92 |
-	| recall          | 0.72 |
-	| precision       | 0.94 |
-	| f1-score        | 0.82 |
+------|
