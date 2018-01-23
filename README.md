@@ -25,6 +25,13 @@ Three classifiers were attempted and evaluated. Accuracies are supplied with eac
 
 After grid searching and evaluating models with the use of AWS clusters, the Gradient Boosting Classifier seemed to perform best consistently. The most important features, in order, include <top ten>. After all of the scraping and feature engineering was done, the fundamental factors of football proved to be the most important features.
 
+| Metric 			 |	Value|
+|-----------------|------|
+| accuracy        | 0.92 |
+| recall          | 0.72 |
+| precision       | 0.94 |
+| f1-score        | 0.82 |
+	
 <p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/class_report.png" width="200">
 	
 ### Evaluation
