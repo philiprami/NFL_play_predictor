@@ -20,7 +20,7 @@ The model features fall into 7 major categories:
 The target is pass. Every pass play attempt is given a value of 1. Every rush attempt is given a value of 0.
 Three classifiers were attempted and evaluated. Accuracies are supplied with each model:
 
-	| Model 			 |	Accuracy|
+	| Model 	  |Accuracy|
 	|-----------------|------|
 	| accuracy        | 0.71 |
 	| recall          | 0.73 |
