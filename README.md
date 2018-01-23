@@ -1,7 +1,8 @@
 # NFL Play Predictor
-A binary classifier - Rush vs. Pass
+####A binary classifier - Rush vs. Pass
 
-Author: Philip Ramirez Date: January 2017
+Author: Philip Ramirez
+Date: January 2017
 
 ### Motivation
 Most work done in sports analytics is related to game scores, outcomes, or player performance forecasting, but modeling game time decisions is a complex - yet potentially fruitful - task. Football is a stop and start game of difficult decisions based on specific game circumstances; It is especially advantageous for coaches and offensive coordinators to be as unpredictable as possible. From the perspective of opposing teams, coaches, and defensive coordinators having a reliable, data driven prediction of the next play would be invaluable. Furthermore, knowing which salient features determine game time decisions can ultimately influence defensive preparation as well as in-game strategy.
@@ -11,6 +12,7 @@ There were three major steps involved in acquiring my final dataset.
 * The bulk of my data was sourced by NFLSavant.com. It includes full play by play - including playoffs and Super Bowls - of season years 2013 through 1016.
 * I then supplemented this data with scraped features from NFLWeather.com and Pro-Football-Reference.com. Some of these features included temperature, humidity, visibility, coaches, defensive alignments, offensive schemes ...
 * The test set (data from season year 2017) was scraped from Pro-Football-Reference.com
+
 The cleaned training data set contains a total of around 120,000 offensive plays ranging from season years 2013 - 2016. This data was split into a training and validation sets in order to tune hyper parameters. Finally, the plays run in 2017 were used as the final test set for model evaluation. After feature engineering and the elimination of redundant features, the final feature set includes 31 columns. Categorical variables were then dummied.
 
 ### Model
@@ -23,7 +25,7 @@ Three classifiers were attempted and evaluated. Accuracy, Precision, and Recall 
 
 After grid searching and evaluating models with the use of AWS clusters, the Gradient Boosting Classifier seemed to perform best consistently. The most important features, in order, include <top ten>. After all of the scraping and feature engineering was done, the fundamental factors of football proved to be the most important features.
 
-<feature importances>
+<p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/confusion_matrix.png"></p>
 
 ### Evaluation
 I've evaluated the Gradient Boosting Classifier's performance against a baseline naive model that always selects pass (the majority class).   
