@@ -25,7 +25,10 @@ Three classifiers were attempted and evaluated. Accuracy, Precision, and Recall 
 
 After grid searching and evaluating models with the use of AWS clusters, the Gradient Boosting Classifier seemed to perform best consistently. The most important features, in order, include <top ten>. After all of the scraping and feature engineering was done, the fundamental factors of football proved to be the most important features.
 
-<p align="right"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/confusion_matrix.png" width="400" height="400"></p> <p align="left"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/class_report.png" width="400" height="400"></p>
+<p align="left"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/confusion_matrix.png" width="400" height="400"></p> <p align="right"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/class_report.png" width="400" height="400"></p>
+
+<img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/confusion_matrix.png" width="200"/> <img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/class_report.png" width="300"/>
+
 
 ### Evaluation
 I've evaluated the Gradient Boosting Classifier's performance against a baseline naive model that always selects pass (the majority class).   
