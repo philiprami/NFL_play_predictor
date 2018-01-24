@@ -1,8 +1,7 @@
 # NFL Play Predictor
 #### A binary classifier - Rush vs. Pass
 
-Author: Philip Ramirez 
-Date: January 2017
+Author: Philip Ramirez	Date: January 2017
 
 ### Motivation
 Most work done in sports analytics is related to game scores, outcomes, or player performance forecasting, but modeling game time decisions is a complex - yet potentially fruitful - task. Football is a stop and start game of difficult decisions based on specific game circumstances; It is especially advantageous for coaches and offensive coordinators to be as unpredictable as possible. From the perspective of opposing teams, coaches, and defensive coordinators having a reliable, data driven prediction of the next play would be invaluable. Furthermore, knowing which salient features determine game time decisions can ultimately influence defensive preparation as well as in-game strategy.
@@ -27,7 +26,7 @@ Three classifiers were attempted and evaluated. Accuracies are supplied with eac
 | GradientBoostingClassifier | 0.74 | 0.74 | 0.74 |
 
 After grid searching and evaluating models with the use of AWS clusters, the Gradient Boosting Classifier seemed to perform best consistently. The most important features, in order, include <top ten>. After all of the scraping and feature engineering was done, the fundamental factors of football proved to be the most important features.
-<p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/time.png" height="400"></p>
+<!-- <p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/time.png" height="400"></p> -->
 		
 ### Evaluation
 I've evaluated the Gradient Boosting Classifier's performance against a baseline naive model that always selects pass (the majority class).   
