@@ -1,7 +1,8 @@
 # NFL Play Predictor
-#### A binary classifier - Rush vs. Pass
+####A binary classifier - Rush vs. Pass
 
-Author: Philip Ramirez	Date: January 2017
+Author: Philip Ramirez
+Date: January 2017
 
 ### Motivation
 Most work done in sports analytics is related to game scores, outcomes, or player performance forecasting, but modeling game time decisions is a complex - yet potentially fruitful - task. Football is a stop and start game of difficult decisions based on specific game circumstances; It is especially advantageous for coaches and offensive coordinators to be as unpredictable as possible. From the perspective of opposing teams, coaches, and defensive coordinators having a reliable, data driven prediction of the next play would be invaluable. Furthermore, knowing which salient features determine game time decisions can ultimately influence defensive preparation as well as in-game strategy.
@@ -17,29 +18,21 @@ The cleaned training data set contains a total of around 120,000 offensive plays
 ### Model
 The model features fall into 7 major categories:
 The target is pass. Every pass play attempt is given a value of 1. Every rush attempt is given a value of 0.
-Three classifiers were attempted and evaluated. Accuracies are supplied with each model:
-  
-| Model 			 |	Value|	Precision | Recall |
-|----------------------------|------|------|------|
-| Logistic Regression        | 0.71 | 0.71 | 0.71 |
-| Random Forest classifier   | 0.73 | 0.73 | 0.73 |
-| GradientBoostingClassifier | 0.74 | 0.74 | 0.74 |
+Three classifiers were attempted and evaluated. Accuracy, Precision, and Recall are supplied with each model:
+  1. Logistic Regression:         0.71, 0.71, 0.71
+  2. Random Forest classifier:    0.73, 0.73, 0.73
+  3. GradientBoostingClassifier:  0.74, 0.74, 0.74
 
 After grid searching and evaluating models with the use of AWS clusters, the Gradient Boosting Classifier seemed to perform best consistently. The most important features, in order, include <top ten>. After all of the scraping and feature engineering was done, the fundamental factors of football proved to be the most important features.
-<p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/time.png" height="400"></p>
-		
+
+<p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/confusion_matrix.png"></p>
+
 ### Evaluation
 I've evaluated the Gradient Boosting Classifier's performance against a baseline naive model that always selects pass (the majority class).   
   Baseline: 58% accuracy
   GB Classifier: 74% accuracy
 
-| Metric 			 |	Value|
-|-----------------|------|
-| baseline        | 0.58 |
-| accuracy        | 0.74 |
-| precision       | 0.74 |
-| recall          | 0.74 |
-| f1-score        | 0.74 |
+<classification report> <confusion matrixw>
 
 #### When compared to the baseline accuracy of 58%, the Gradient Boosting Classifier is 30% more accurate.
 
