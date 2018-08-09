@@ -41,6 +41,8 @@ I've evaluated the Gradient Boosting Classifier's performance against a baseline
 #### When compared to the baseline accuracy of 58%, the Gradient Boosting Classifier is 30% more accurate.
 
 ### Insights
+<p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/formation.png" height="400"></p>
+<p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/downanddistance.png" height="400"></p>
 <p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/time_series.png" height="400"></p>
 
 ### Tech Used
