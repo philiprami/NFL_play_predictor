@@ -41,8 +41,15 @@ I've evaluated the Gradient Boosting Classifier's performance against a baseline
 #### When compared to the baseline accuracy of 58%, the Gradient Boosting Classifier is 30% more accurate.
 
 ### Insights
+One of the advantages of using tree based models are identifiable feature importances. After model evaluation, the fundamentals of football proved to be the most important features.
+
+#### Formation
 <p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/formation.png" height="400"></p>
+
+#### Down and Distance
 <p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/downanddistance.png" height="400"></p>
+
+#### Time left in half
 <p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/time_series.png" height="400"></p>
 
 ### Tech Used
