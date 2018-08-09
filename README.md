@@ -26,9 +26,7 @@ Three classifiers were attempted and evaluated. Accuracies are supplied with eac
 | GradientBoostingClassifier | 0.74 | 0.74 | 0.74 |
 		
 ### Evaluation
-I've evaluated the Gradient Boosting Classifier's performance against a baseline naive model that always selects pass (the majority class).   
-  Baseline: 58% accuracy
-  GB Classifier: 74% accuracy
+I've evaluated the Gradient Boosting Classifier's performance against a baseline naive model that always selects pass (the majority class).
 
 | Metric 			 |	Value|
 |-----------------|------|
@@ -44,12 +42,15 @@ I've evaluated the Gradient Boosting Classifier's performance against a baseline
 One of the advantages of using tree based models are identifiable feature importances. After model evaluation, the fundamentals of football proved to be the most important features.
 
 #### Formation
+70% of plays run from the shotgun formation are pass plays. Plays run from under center tend to be more evenly distributed.
 <p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/formation.png" height="400"></p>
 
 #### Down and Distance
+The down and the amount of yards until the next first down are both positively correlated to pass attempts. In the last 5 years, plays run on third down -with at least 3 yards to go- are 80% pass attempts.
 <p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/downanddistance.png" height="400"></p>
 
 #### Time left in half
+One of the most important features is how much time is left in each half of a given game. Quarters 1 and 3 tend to be conservative (teams run the ball more), whereas quarters 2 and 4 are pass heavy. The most interesting part of this graphic is the observable dip of pass plays right after the start of overtime. The very conservative play calling in this time period indicates that teams are trying not to lose!
 <p align="center"><img src="https://github.com/philiprami/NFL_play_predictor/blob/master/img/time_series.png" height="400"></p>
 
 ### Tech Used
